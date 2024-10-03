@@ -13,9 +13,9 @@ namespace Skole_projekter_Peter
             GradeList grade_list = new GradeList(3);
 
 
-            grade_list.addGrade(new Grade("dansl", DateTime.Now, "Peter", "Katrine", Grade.gradeValue.TOLV));
-            grade_list.addGrade(new Grade("dansl1", DateTime.Now, "Peter1", "Katrine1", Grade.gradeValue.NULTRE));
-            grade_list.addGrade(new Grade("dansl2", DateTime.Now, "Peter2", "Katrine2", Grade.gradeValue.MINUSTRE));
+            grade_list.addGrade(new Grade("dansk", DateTime.Now, "Lærer 1", "Lærer 4", Grade.gradeValue.TOLV));
+            grade_list.addGrade(new Grade("Matematik", DateTime.Now, "Lærer 2", "Lærer 1", Grade.gradeValue.NULTRE));
+            grade_list.addGrade(new Grade("Fysik", DateTime.Now, "Lærer 1", "Lærer 3", Grade.gradeValue.MINUSTRE));
 
 
             Console.WriteLine(grade_list.toString());
